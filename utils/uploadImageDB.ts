@@ -1,4 +1,4 @@
-import { storage, ID } from '../appwrite'
+import { storage, ID } from '../appwrite.ts'
 
 const uploadImageDB = async (file: File) => {
     if (!file) return;

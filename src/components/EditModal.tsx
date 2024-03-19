@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaCheck } from "react-icons/fa6";
 import { MdOutlineDelete } from "react-icons/md";
 import { AiOutlineClose } from "react-icons/ai";
-import { useBoardStore } from "../store/BoardStore";
+import { useBoardStore } from "../store/BoardStore.ts";
 
 const EditModal = ({ columnId, title, setEditColumn }: { columnId: string, title: string, setEditColumn: React.Dispatch<React.SetStateAction<boolean>> }) => {
 

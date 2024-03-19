@@ -1,4 +1,4 @@
-import { databases, ID } from '../appwrite';
+import { databases, ID } from '../appwrite.ts';
 
 
 

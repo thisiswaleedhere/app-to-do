@@ -1,4 +1,4 @@
-import { databases } from '../appwrite';
+import { databases } from '../appwrite.ts';
 
 interface Columns {
     [id: string]: {

@@ -1,4 +1,4 @@
-import { storage } from '../appwrite'
+import { storage } from '../appwrite.ts'
 
 const getImageUrlDB = (image: {
     bucketId: string;
